@@ -47,5 +47,23 @@ To optimize your workflow, instead of logging in with your passcode every single
 
 ![Setting up SSH Key1](Setting_SSH_Key1_LabR1.PNG)
 
+Once you run that, you should set up a private key on your own computer like this and access without a passcode like this:
+
+![Setting up SSH Key2](SSH_Key_LabR1.PNG)
+
+## Optimizing even further
+
+Once you can log onto your remote directory without a passcode, you should be able to run multiple command line commands directly to the remote directory, without a passcode.
+
+You can use such commands like: 
+
+$ ssh cs15lwi22@ieng6.ucsd.edu "ls"
+
+directly without logging in. You can also run multiple commands on each line with semi colons seperating the commands like:
+
+$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
+
+
+## **Thats It! You're done! Congrats!**
 
 
