@@ -24,8 +24,22 @@ Except replace the "zz" with your course specific account. If you've done it rig
 
 ## Trying Some Commands
 
+Try some commands in the terminal to see what kind of directory you're in, what files are in your directory, etc. Some useful commands to try are: cd, ls, pwd, mkdir, and cp.
 
+It should look something like this:
 
+![Trying Some Commands 1](Trying_Some_Commands1_LabR1.PNG)
+![Trying Some Commands 2](Trying_Some_Commands2_LabR1.PNG)
+
+## Moving files with scp
+
+Try creating a file on your personal machine and moving it to the remote desktop with the command: 
+
+scp [Your File Name] cs15lwi22zz@ieng6.ucsd.edu:~/
+
+Then if you ls on your remote directory, you should see this:
+
+![Moving Files](Moving_Files_LabR1.PNG)
 
 
 
