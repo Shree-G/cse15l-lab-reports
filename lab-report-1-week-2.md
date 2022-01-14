@@ -41,6 +41,11 @@ Then if you ls on your remote directory, you should see this:
 
 ![Moving Files](Moving_Files_LabR1.PNG)
 
+## Setting up an SSH Key
+
+To optimize your workflow, instead of logging in with your passcode every single time, you can create a public and private key to store on your remote desktop and personal machine respectfully. That way, each time you log in, your private key will initiate the log in process instead of you typing in a passcode. You should run this to set this up:
+
+![Setting up SSH Key1](Setting_SSH_Key1_LabR1.PNG)
 
 
 
