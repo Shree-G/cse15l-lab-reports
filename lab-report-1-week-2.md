@@ -4,7 +4,7 @@ By Shree Gopalakrishnan (PID: A16932989)
 This is a tutorial for incoming CSE 15L students on how to set up, put files into, and optimize running a remote directory.
 
 ## Installing VS Code on your Local Machine
-You should navigate onto the Visual Studio Code website https://code.visualstudio.com/, and follow the instructions to download and install it on your computer. After you complete the installation process, you should have a start screen that looks something like this:
+You should navigate onto the Visual Studio Code [website](https://code.visualstudio.com/), and follow the instructions to download and install it on your computer. After you complete the installation process, you should have a start screen that looks something like this:
 
 ![Installing VS CODE](Installing_Vs_Code_LabR1.PNG)
 
@@ -16,7 +16,7 @@ Then, look up your course-specific account for CSE15L [here](https://sdacs.ucsd.
 
 After all that, open your terminal in VS Code and type in this:
 
-$ ssh cs15lwi22zz@ieng6.ucsd.edu
+```$ ssh cs15lwi22zz@ieng6.ucsd.edu```
 
 Except replace the "zz" with your course specific account. If you've done it right, it should look something like this:
 
@@ -35,7 +35,7 @@ It should look something like this:
 
 Try creating a file on your personal machine and moving it to the remote desktop with the command: 
 
-scp [Your File Name] cs15lwi22zz@ieng6.ucsd.edu:~/
+```scp [Your File Name] cs15lwi22zz@ieng6.ucsd.edu:~/```
 
 Then if you ls on your remote directory, you should see this:
 
@@ -57,11 +57,13 @@ Once you can log onto your remote directory without a passcode, you should be ab
 
 You can use such commands like: 
 
-$ ssh cs15lwi22@ieng6.ucsd.edu "ls"
+```$ ssh cs15lwi22@ieng6.ucsd.edu "ls"```
 
 directly without logging in. You can also run multiple commands on each line with semi colons seperating the commands like:
 
-$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
+```$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI```
+
+When the whole system is fully optimized, it takes me around 25 keystrokes to compile and run the program in the remote desktop, whereas it took me over 75 beforehand.
 
 
 ## **Thats It! You're done! Congrats!**
