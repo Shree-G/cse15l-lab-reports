@@ -19,7 +19,7 @@ The second issue that one of my groupmates ran into was that the .md file produc
 
 ![Image Break Issue](ImageBreak.PNG)
 
-The code that caused the issue is in [this file]()
+The code that caused the issue is in [this file](https://raw.githubusercontent.com/Shree-G/markdown-parse/main/lib/test-file-5.md)
 
 The output of the file in the terminal looked like this:
 
