@@ -10,7 +10,8 @@ The first issue we had was that when we added text after the links in the .md fi
 
 The code that caused the issue is in [this file](https://raw.githubusercontent.com/Shree-G/markdown-parse/main/test-file2.md).
 
-The output of the file in the terminal just caused the terminal to crash.
+The output of the file in the terminal looked like this:
+![Infinite Loop Issue](infLoopRun.PNG)
 
 I think the program could not handle the extra characters at the end, because it kept searching for the new link. The original program expected the very last line to be a link, when it didn't really need to be.
 
@@ -19,7 +20,7 @@ The second issue that one of my groupmates ran into was that the .md file produc
 
 ![Image Break Issue](ImageBreak.PNG)
 
-The code that caused the issue is in [this file](https://raw.githubusercontent.com/Shree-G/markdown-parse/main/lib/test-file-5.md)
+The code that caused the issue is in [this file](https://raw.githubusercontent.com/Shree-G/markdown-parse/main/test-file-5.md)
 
 The output of the file in the terminal looked like this:
 
