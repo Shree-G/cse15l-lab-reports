@@ -1,4 +1,4 @@
-# **Lab Report 1**
+# **Lab Report 2**
 By Shree Gopalakrishnan (PID: A16932989)
 
 This lab report is about the changes to the MarkdownParse.java file that fixed multiple bugs in the code.
