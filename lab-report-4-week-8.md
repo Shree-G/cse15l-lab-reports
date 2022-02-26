@@ -3,6 +3,10 @@ By Shree Gopalakrishnan (PID: A16932989)
 
 This Lab report is about three different test files that we test with our implementation of the code, and the group's code that we reviewed.
 
+Here is the [link](https://github.com/Shree-G/markdown-parse) to my repo.
+
+Here is the [link](https://github.com/c1peng/markdown-parse) to the repo I reviewed.
+
 ## Snippet 1:
 
 Our code:
