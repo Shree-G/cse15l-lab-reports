@@ -15,6 +15,9 @@ The first snippet should produce "`google.com, google.com, ucsd.edu" according t
 
 ![Snip1 Actual](Snip1actual.PNG)
 
+The test itself should look like this:
+![Snip1 Test](testCase1.PNG)
+
 Yet it produces this when we run the test according to our code, as it fails:
 
 ![Snip1 Our code](snip1OurCode.PNG)
@@ -32,6 +35,9 @@ For Question 1, I think this is a fix that could be implemented super easily, be
 The second snippet should produce "a.com, a.com(()), example.com" according to the VS Code preview: 
 
 ![Snip2 Preview](SnipPreview2.PNG)
+
+The test itself should look like this:
+![Snip2 Test](testCase2.PNG)
 
 Our Code: 
 When we run the test on our code, this is what it produces:
@@ -51,6 +57,9 @@ For Question 2, I think this would be much harder to fix, as it would need to ch
 The third snippet should produce "https://ucsd-cse15l-w22.github.io/" according to the VS Code Preview:
 
 ![Snip3 Preview](SnipPreview3.PNG)
+
+The test itself should look like this:
+![Snip3 Test](testCase3.PNG)
 
 Our Code:
 When we run the test on our code, this is what it produces:
