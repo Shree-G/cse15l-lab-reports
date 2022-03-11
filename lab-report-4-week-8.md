@@ -28,7 +28,7 @@ When we run the same test on their code, this is what it produces:
 
 ![Snip1 Their code](snip1TheirCode.PNG)
 
-For Question 1, I think this is a fix that could be implemented super easily, because we need to check for blocks of code that have backticks surrounding them first before going ahead with the program.
+For Question 1, I think this is a fix that could be implemented super easily, because we need to check for blocks of code that have backticks surrounding them first before going ahead with the program. sjfskdfh
 
 ## Snippet 2:
 
